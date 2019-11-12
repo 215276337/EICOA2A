@@ -1,0 +1,7 @@
+check50: 
+  files: &check50_files
+    - !exclude "*"
+    - !require chpt4q1.c
+
+submit50:
+  files: *check50_files
